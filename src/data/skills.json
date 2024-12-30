@@ -32,6 +32,10 @@
         "imageSrc": "skills/git.png"
     },
     {
+        "title": "JUnit", 
+        "imageSrc": "skills/junit.png"
+    },
+    {
         "title": "Visual Studio Code", 
         "imageSrc": "skills/vscode.png"
     }, 

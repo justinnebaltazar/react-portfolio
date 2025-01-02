@@ -1,25 +1,25 @@
 [
     {
-      "title": "Project A",
+      "title": "Undercooked",
+      "imageSrc": "projects/StartScreen.png",
+      "description": "A 2D Java Desktop App done through an introduction to software engineering course as a semester-long project.",
+      "skills": ["Java", "Maven", "JUnit", "Java Swing"],
+      "demo": "https://www.loom.com/share/ebcc60e774f94c19bc8bbec8f4569c90",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "RISC-V Emulator",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "An emulator for executing a subset of the RISC-V instruction set, capable of decoding RISC-V instructions.",
+      "skills": ["C++", "C", "CGDB", "CUnit"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "title": "Etch-A-Sketch",
+      "imageSrc": "projects/sketch-app.png",
+      "description": "A browser-based sketchpad application with responsiveness and capable of interactive user features.",
+      "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }

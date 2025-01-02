@@ -1,7 +1,7 @@
 @import "../../variables.css"; 
 
 .container {
-    color: var(--color--text);
+    color: #fff;
     margin-top: 120px;
     background-color: var(--color-secondary);
     display: flex;

@@ -1,6 +1,7 @@
 [
     {
       "title": "Undercooked",
+      "projectType": "Game Development",
       "imageSrc": "projects/StartScreen.png",
       "description": "A 2D Java Desktop App done through an introduction to software engineering course as a semester-long project.",
       "skills": ["Java", "Maven", "JUnit", "Java Swing"],
@@ -9,6 +10,7 @@
     },
     {
       "title": "RISC-V Emulator",
+      "projectType": "Software Development",
       "imageSrc": "projects/project.png",
       "description": "An emulator for executing a subset of the RISC-V instruction set, capable of decoding RISC-V instructions.",
       "skills": ["C++", "C", "CGDB", "CUnit"],
@@ -17,6 +19,7 @@
     },
     {
       "title": "Etch-A-Sketch",
+      "projectType": "Website Development",
       "imageSrc": "projects/sketch-app.png",
       "description": "A browser-based sketchpad application with responsiveness and capable of interactive user features.",
       "skills": ["HTML", "CSS", "JavaScript"],

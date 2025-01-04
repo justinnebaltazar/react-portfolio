@@ -5,6 +5,7 @@
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
+    z-index: 2;
 }
 
 .title {
@@ -12,6 +13,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 .projects {

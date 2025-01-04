@@ -3,9 +3,10 @@
 .container {
     position: relative; 
     display: flex; 
+    text-align: center;
     align-items: center;
-    justify-content: space-between ;
-    margin-top: 49px; 
+    justify-content: space-between;
+    margin-top: 78px; 
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -14,12 +15,15 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     color: var(--color-text);
     z-index: 1;
 }
 
 .title {
+    width: 100%;
+    text-align: center;
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -45,27 +49,6 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-
-.heroImg {
-    width: 50%;
-    z-index: 1;
-
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    } 50% {
-        transform: translate(0, 10px);
-    } 100% {
-        transform: translate(0, -0px);
-    }
-}
-
 
 .topBlur {
     position: absolute; 
@@ -102,5 +85,14 @@
 
     .content {
         align-items: center;
+        text-align: center;
     }
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }

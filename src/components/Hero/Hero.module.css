@@ -61,7 +61,7 @@
     border-radius: 764px;
     background: rgba(25, 25, 109, 0.7);
     filter: blur(100px);
-    z-index: 0;
+    z-index: -1;
 }
 
 .bottomBlur {
@@ -75,7 +75,7 @@
     border-radius: 764px;
     background: rgba(25, 25, 109, 0.7);
     filter: blur(100px);
-    z-index: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 830px) {

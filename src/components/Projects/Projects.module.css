@@ -1,12 +1,12 @@
 @import "../../variables.css"; 
 
 #projects {
-    background-color: var(--color-opp); /* Different color for the Projects section */
-    width: 100vw; /* Make it span the full viewport width */
+    background-color: var(--color-opp);
+    width: 100vw;
     min-height: 100vh;
-    margin-left: 0; /* Reset margins to avoid gaps */
+    margin-left: 0;
     margin-right: 0;
-    padding: 20px 0; /* Optional padding for spacing */
+    padding: 20px 0; 
 }
 
 .container {

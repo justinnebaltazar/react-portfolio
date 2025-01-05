@@ -5,11 +5,13 @@
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .title {
+    position: relative;
     font-size: 35px;
+    color: var(--color-text);
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;

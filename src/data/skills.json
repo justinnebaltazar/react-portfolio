@@ -5,7 +5,7 @@
     },
     {
         "title": "Java",
-        "imageSrc": "skills/java.png"
+        "imageSrc": "skills/java-logo.png"
     },
     {
         "title": "HTML", 
@@ -14,6 +14,10 @@
     {
         "title": "CSS",
         "imageSrc": "skills/css.png" 
+    },
+    {
+        "title": "JavaScript", 
+        "imageSrc": "skills/js-logo.png"
     },
     {
         "title": "React", 
@@ -34,13 +38,5 @@
     {
         "title": "JUnit", 
         "imageSrc": "skills/junit.png"
-    },
-    {
-        "title": "Visual Studio Code", 
-        "imageSrc": "skills/vscode.png"
-    }, 
-    {
-        "title": "IntelliJ IDEA", 
-        "imageSrc": "skills/intellij.png"
     }
 ]

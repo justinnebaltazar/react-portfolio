@@ -81,3 +81,8 @@
     max-width: 50px;
     max-height: 50px;
 }
+
+.animation {
+    white-space: pre-line;
+    width: 100%;
+}

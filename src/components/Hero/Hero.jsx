@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import { Animation } from "./Animation";
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
@@ -10,6 +11,9 @@ export const Hero = () => {
                     Justinne Baltazar
                 </h1>
                 <p className={styles.description}>An aspiring software developer with an interest in game development and computer systems</p>
+                <Animation>
+
+                </Animation>
                 <ul className={styles.links}>
                     <li><a href="https://github.com/justinnebaltazar"><img src={getImageUrl("hero/githubIcon.png")} alt="github-icon" className={styles.github} /></a></li>
                     <li><a href="https://www.linkedin.com/in/justinnebaltazar/"><img src={getImageUrl("hero/linkedinIcon.png")} alt="github-icon" className={styles.linkedin} /></a></li>

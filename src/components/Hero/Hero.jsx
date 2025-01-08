@@ -13,7 +13,7 @@ export const Hero = () => {
                 <ul className={styles.links}>
                     <li><a href="https://github.com/justinnebaltazar"><img src={getImageUrl("hero/githubIcon.png")} alt="github-icon" className={styles.github} /></a></li>
                     <li><a href="https://www.linkedin.com/in/justinnebaltazar/"><img src={getImageUrl("hero/linkedinIcon.png")} alt="github-icon" className={styles.linkedin} /></a></li>
-                    <li><a href="mailto:jfb3@sfu.ca"><img src={getImageUrl("hero/email.png")} className={styles.email}></img></a></li>
+                    <li><a href="mailto:jfb3@sfu.ca"><img src={getImageUrl("hero/new-email.png")} className={styles.email}></img></a></li>
                 </ul>
             </div>
             <div className={styles.topBlur}></div>

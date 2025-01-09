@@ -12,6 +12,7 @@ function App() {
     <div className={styles.App}>
       <Navbar></Navbar>
       <Hero></Hero>
+      <About></About>
       <Projects></Projects>
       <Experience></Experience>
       <Contact></Contact>

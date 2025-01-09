@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 export const About = () => {
     return (
         <section className={styles.container} id="about">
-            <h2 className={styles.title}>About</h2>
+            <h2 className={styles.title}>About me</h2>
             
             <div className={styles.content}>
             <img src="./assets/about/aboutImage.png" alt="me-sitting-with-computer" className={styles.aboutImage}></img>

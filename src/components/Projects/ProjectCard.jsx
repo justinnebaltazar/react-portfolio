@@ -22,7 +22,10 @@ export const ProjectCard = ({ project : {title, projectType, imageSrc, descripti
                         <a className={styles.link} href={source}>Source</a>
                 </div>
             </div>
-            <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image}/>
+            <div className={styles.imageContainer}>
+                <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={`${styles.image} ${styles.aboutItem}`}/>
+            </div>
+            
 
         </div>
     )

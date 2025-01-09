@@ -21,6 +21,10 @@
     display: block;
     margin: 5px auto; 
     border-radius: 10px;
+    opacity: 1;
+    height: 80%;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .projectType {
@@ -75,4 +79,8 @@
     border-radius: 100px;
     background: var(--color-secondary);
     padding: 1px 22px;
+}
+
+.imageContainer:hover .image {
+    opacity: 0.3;
 }

@@ -7,8 +7,7 @@ export const About = () => {
     return (
         <section className={styles.container} id="about">
             <div className={styles.content}>
-            <img src={getImageUrl("about/test-2.png")} alt="photo-of-me" />
-            
+                <img src={getImageUrl("about/test-2.png")} alt="photo-of-me" />
                 <div className={styles.type}>
                     <h2 className={styles.title}>About me</h2>
                     <div className={styles.animation}>
@@ -21,11 +20,14 @@ export const About = () => {
                     </div>
                 </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis vel erat sit amet accumsan. Pellentesque non porta nisl, in scelerisque mauris. Morbi velit massa, euismod nec sem ac, tristique vehicula sem. Donec arcu leo, ultricies vel arcu in, pellentesque lobortis ex.</p>
+                <p>Hi, my name is Justinne! I'm a Computing Science student at Simon Fraser University.<br/></p>
                 
-                <p>Fusce vulputate at nunc quis elementum. Aenean nisi mauris, pellentesque et suscipit ut, tempor at tortor. Sed lacus enim, tincidunt rutrum accumsan nec, viverra in tellus. Cras consequat, lectus sed tempor dignissim, purus nisi convallis orci, et ultrices massa erat ut risus. Aliquam eu nulla ligula. Donec hendrerit libero sapien, eu vestibulum nulla bibendum vitae. Nunc mollis neque eu elit rhoncus, in viverra sapien molestie.
-                Donec vel metus mattis augue lacinia tristique. Ut sit amet ligula id diam pharetra tincidunt. Aenean id dignissim lorem. Etiam turpis mi, tincidunt sit amet sagittis a, viverra sit amet mi. Vivamus enim orci, bibendum sed fringilla et, sagittis id erat. Donec mi ante, posuere quis est non, pellentesque posuere magna. Nam a pretium neque. Morbi euismod lorem sit amet justo posuere, ac pretium nibh vulputate. Donec et ante enim.
+                <p> <br/> Currently, I work part-time as a Tutor and volunteer as a Coding Instructor. As a tutor, I teach students from Grades 2 to 12 in subject areas such as, Math, English, and Chemistry. 
+                As a Coding Instructor, I teach programming and computer science topics to neurodivergent children. My experience as a tutor and coding instructor has allowed me 
+                to master rudimentary mathematical and programming concepts. It also developed my communication and problem-solving abilities.
                 </p>
+                
+                <p>Outside of school and work, I...</p>
             </div>
         </section>
     )

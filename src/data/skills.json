@@ -4,9 +4,17 @@
         "imageSrc": "skills/cpp.png" 
     },
     {
+        "title": "C", 
+        "imageSrc": "skills/c_logo.png"
+    }, 
+    {
         "title": "Java",
         "imageSrc": "skills/java-logo.png"
     },
+    {
+        "title": "Python", 
+        "imageSrc": "skills/python.png"
+    }, 
     {
         "title": "HTML", 
         "imageSrc": "skills/html.png"
@@ -26,10 +34,6 @@
     {
         "title": "Node", 
         "imageSrc": "skills/node.png"
-    }, 
-    {
-        "title": "Python", 
-        "imageSrc": "skills/python.png"
     }, 
     {
         "title": "Git", 

@@ -74,7 +74,11 @@
     }
 
     .link a {
-        font-size: 25px;
+        font-size: 23px;
+    }
+
+    .link img {
+        max-width: 30px;
     }
 
     .container {

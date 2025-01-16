@@ -1,8 +1,9 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
+import { Link } from "react-router-dom";
 
-export const ProjectCard = ({ project : {title, projectType, imageSrc, description, skills, demo, source}}) => {
+export const ProjectCard = ({ project : {title, projectType, imageSrc, description, skills, demo, source, componentTitle}}) => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
@@ -20,6 +21,8 @@ export const ProjectCard = ({ project : {title, projectType, imageSrc, descripti
                 <div className={styles.links}>
                         <a className={styles.link} href={demo}>Demo</a>
                         <a className={styles.link} href={source}>Source</a>
+                        <a className={styles.link} href={`../${componentTitle}.jsx`}>More info!</a>
+                        <Link className={styles.link} to="/undercooked">More info!</Link>
                 </div>
             </div>
             <div className={styles.imageContainer}>

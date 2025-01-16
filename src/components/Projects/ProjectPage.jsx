@@ -1,7 +1,6 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
 
-export const ProjectPage = ({ project : {title, projectType, imageSrc, description, skills, demo, source}}) => {
+export const ProjectPage = ({ project : {title, projectType, imageSrc, description, skills, demo, source, componentTitle}}) => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
@@ -15,11 +14,6 @@ export const ProjectPage = ({ project : {title, projectType, imageSrc, descripti
                         )})
                     }   
                 </ul>
-
-                <div className={styles.links}>
-                        <a className={styles.link} href={demo}>Demo</a>
-                        <a className={styles.link} href={source}>Source</a>
-                </div>
             </div>
         </div>
     )    

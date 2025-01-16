@@ -6,7 +6,8 @@
       "description": "A 2D Java Desktop App done through an introduction to software engineering course as a semester-long project.",
       "skills": ["Java", "Maven", "JUnit", "Java Swing"],
       "demo": "https://www.loom.com/share/ebcc60e774f94c19bc8bbec8f4569c90",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "componentTitle": "undercooked"
     },
     {
       "title": "RISC-V Emulator",
@@ -15,7 +16,8 @@
       "description": "An emulator for executing a subset of the RISC-V instruction set, capable of decoding RISC-V instructions.",
       "skills": ["C++", "C", "CGDB", "CUnit"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "componentTitle": "riscv"
     },
     {
       "title": "Etch-A-Sketch",
@@ -24,6 +26,7 @@
       "description": "A browser-based sketchpad application with responsiveness and capable of interactive user features.",
       "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "componentTitle": "sketch"
     }
   ]

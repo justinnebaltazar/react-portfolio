@@ -21,7 +21,6 @@ export const ProjectCard = ({ project : {title, projectType, imageSrc, descripti
                 <div className={styles.links}>
                         <a className={styles.link} href={demo}>Demo</a>
                         <a className={styles.link} href={source}>Source</a>
-                        <a className={styles.link} href={`../${componentTitle}.jsx`}>More info!</a>
                         <Link className={styles.link} to="/undercooked">More info!</Link>
                 </div>
             </div>

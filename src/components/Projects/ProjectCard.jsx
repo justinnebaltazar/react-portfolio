@@ -19,9 +19,11 @@ export const ProjectCard = ({ project : {title, projectType, imageSrc, descripti
                 </ul>
 
                 <div className={styles.links}>
-                        <a className={styles.link} href={demo}>Demo</a>
-                        <a className={styles.link} href={source}>Source</a>
-                        <Link className={styles.link} to="/undercooked">More info!</Link>
+                        {demo && (<a className={styles.link} href={demo}>Demo</a>)}
+
+                        {source && (<a className={styles.link} href={source}>Source</a>)}
+                    
+                
                 </div>
             </div>
             <div className={styles.imageContainer}>
@@ -32,3 +34,6 @@ export const ProjectCard = ({ project : {title, projectType, imageSrc, descripti
         </div>
     )
 }
+
+// <Link className={styles.link} to="/undercooked">More info!</Link>
+// <a className={styles.link} href={source}>Source</a>

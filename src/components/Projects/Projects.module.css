@@ -10,7 +10,7 @@
 }
 
 .container {
-    background-color: var(--color-opp);
+    background-color: var(--color-text);
     padding: 76px 10%; 
     z-index: 1;
 }

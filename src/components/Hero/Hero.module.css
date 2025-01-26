@@ -8,7 +8,7 @@
     justify-content: space-between;
     z-index: 1;
     padding: 110px 10% 50px 10%;
-    background-color: var(--color-bg);
+    background-color: var(--color-dark-bg);
 }
 
 .content {
@@ -16,13 +16,13 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    color: var(--color-text);
+    color: var(--color-light-text);
     z-index: 1;
 }
 
 .title {
     width: 100%;
-    color: #000;
+    color: var(--color-light-text);
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -67,6 +67,6 @@
 }
 
 .github {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 45px;
+    max-height: 45px;
 }

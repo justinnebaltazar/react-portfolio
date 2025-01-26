@@ -1,11 +1,15 @@
 :root {
     --color-text: #262626;
+    --color-light-text: #f5f5f5;
+
     --color-primary: #576cbc;
     --color-secondary: #3E5879;
     --color-dark: #213555;
     --color-opp: #D8C4B6;
-    /* original color f5efe7*/ 
+
     --color-bg: #f5f5f5;
+    --color-dark-bg: #262626; 
+
     --color-btn: #fff;
     --font-robot: "Roboto";
 }

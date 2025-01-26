@@ -47,6 +47,10 @@
     max-height: 50px;
 }
 
+.link .linkedin {
+    max-width: 75px;
+}
+
 @media screen and (max-width: 710px) {
     .container {
         flex-direction: column;
@@ -94,6 +98,10 @@
 
     .link img {
         max-width: 45px;
+    }
+
+    .link .linkedin {
+        max-width: 55px;
     }
 
     .text h2 {

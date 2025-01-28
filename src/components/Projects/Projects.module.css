@@ -18,7 +18,7 @@
 .title {
     position: relative;
     font-size: 35px;
-    color: var(--color-text);
+    color: var(--color-light-text);
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;

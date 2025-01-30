@@ -36,6 +36,11 @@
     display: none;
 }
 
+.menu a:hover {
+    color: #0073e6;
+    opacity: 70%;
+}
+
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;

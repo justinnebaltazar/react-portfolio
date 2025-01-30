@@ -6,7 +6,6 @@ import { About } from "./components/About/About";
 import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
-import { Undercooked } from "./components/Projects/Undercooked";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
               <Contact />
             </>
           } />
-          <Route path="/undercooked" element={<Undercooked />} />
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </Router>

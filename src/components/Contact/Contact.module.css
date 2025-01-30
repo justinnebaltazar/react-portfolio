@@ -42,6 +42,10 @@
     font-weight: 400;
 }
 
+.link a:hover {
+    color: #0073e6;
+}
+
 .link img {
     max-width: 50px;
     max-height: 50px;

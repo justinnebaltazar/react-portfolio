@@ -56,7 +56,7 @@
 .skill {
     font-size: 20px;
     font-weight: 400;
-    border-radius: 100px;
+    border-radius: 12px;
     background: var(--color-dark);
     padding: 2px 22px;
     color: var(--color-btn);
@@ -76,7 +76,7 @@
     color: var(--color-btn); 
     font-size: 20px;
     font-weight: 600;
-    border-radius: 100px;
+    border-radius: 12px;
     background: var(--color-secondary);
     padding: 1px 22px;
 }

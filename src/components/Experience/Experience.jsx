@@ -1,9 +1,14 @@
 import React from "react";
+import styles from "./Experience.module.css"
 
 export const Skills = () => {
     return (
         <>
-            <h2>Test experience section!</h2>
+            <section className={styles.container}>
+                <li>
+                    
+                </li>
+            </section>
         </>
     )
 };

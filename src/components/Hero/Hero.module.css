@@ -6,7 +6,6 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    z-index: 1;
     padding: 110px 10% 50px 10%;
     background-color: var(--color-dark-bg);
 }
@@ -17,22 +16,19 @@
     text-align: center;
     align-items: center;
     color: var(--color-light-text);
-    z-index: 1;
 }
 
 .title {
     width: 100%;
     color: var(--color-light-text);
     text-align: center;
-    font-size: 72px;
+    font-size: 80px;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-robot);
 }
 
 .description {
     font-size: 30px;
-    font-family: var(--font-robot);
     margin-bottom: 52px;
 }
 

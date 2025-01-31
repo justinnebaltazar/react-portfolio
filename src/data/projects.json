@@ -1,5 +1,15 @@
 [
     {
+      "title": "This portfolio!",
+      "projectType": "Website Development",
+      "imageSrc": "projects/portfolio.png",
+      "description": "A portfolio showcasing my projects, skills, experience, and a little bit about me!",
+      "skills": ["React", "CSS", "JavaScript", "Vite", "Netlify"],
+      "demo": null,
+      "source": null, 
+      "componentTitle": "portfolio"
+    },
+    {
       "title": "Undercooked",
       "projectType": "Game Development",
       "imageSrc": "projects/StartScreen.png",

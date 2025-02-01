@@ -15,6 +15,13 @@ export const ExperienceCard = ({ experience : {role, date, organization, descrip
                         )})
                     }
                 </ul>
+                <ul className={styles.skills}>
+                    {skills && skills.map((skill, id) => {
+                        return (
+                            <li className={styles.skill} key={id}>{skill}</li>
+                        )
+                    })}
+                </ul>
             </div>
         </div>
     )

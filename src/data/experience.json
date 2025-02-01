@@ -1,0 +1,13 @@
+[
+    {
+        "role": "Web Developer", 
+        "date": "January 2025 - Present", 
+        "organization": "Engineering Without Borders @ SFU", 
+        "descriptions": [
+            "Design and develop front-end of EWB website",
+            "Integrate Google Maps API",
+            "Collaborate with back-end developers"
+        ],
+        "skills": ["React", "CSS", "Node.JS", "Express.JS"]
+    }
+]

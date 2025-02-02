@@ -1,0 +1,52 @@
+@import "../../variables.css";
+
+.container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    background-color: var(--color-dark-bg);
+    border-radius: 10px;
+    padding: 18px 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-light-text);
+}
+
+.date {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.role {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.org {
+    font-size: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 7px 0;
+}
+
+.skill {
+    list-style: none;
+    color: var(--color-light-text);
+    background-color: var(--color-dark);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.desc {
+    list-style: none;
+    margin-top: 6px;
+    font-weight: 200;
+}

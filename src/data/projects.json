@@ -1,6 +1,16 @@
 [
     {
-      "title": "This portfolio!",
+      "title": "Tetris Clone", 
+      "projectType": "Website Development",
+      "imageSrc": "projects/tetris-clone.png",
+      "description": "A Tetris clone built with React, Vite, and CSS Module as a Web Application", 
+      "skills": ["React", "CSS", "JavaScript", "Vite"],
+      "demo": null,
+      "source": null,
+      "componentTitle": "tetris-clone"
+    },
+    {
+      "title": "This website!",
       "projectType": "Website Development",
       "imageSrc": "projects/portfolio.png",
       "description": "A portfolio showcasing my projects, skills, experience, and a little bit about me!",

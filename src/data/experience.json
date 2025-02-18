@@ -4,10 +4,20 @@
         "date": "January 2025 - Present", 
         "organization": "Engineering Without Borders @ SFU", 
         "descriptions": [
-            "Design and develop front-end of EWB website",
-            "Integrate Google Maps API",
-            "Collaborate with back-end developers"
+            "Design and develop front-end using React and CSS to create a responsive web application that works across desktops, mobile, and other devices with an user-friendly interface",
+            "Ensure website design and functionality aligns with the club’s vision and information is up-to-date",
+            "Collaborate with Webmaster to integrate front-end code with server-side logic"
         ],
         "skills": ["React", "CSS", "Node.JS", "Express.JS"]
+    },
+    {
+        "role": "Coding Instructor", 
+        "date": "August 2024 - Present",
+        "organization": "The C.O.D.E. Initiative", 
+        "descriptions": [
+            "Conduct one-on-one online programming sessions in Java or Scratch for neurodivergent children, adapting teaching methods to meet individual learning needs", 
+            "Create progress sheets to track student progress and ensure consistency in teaching approaches", 
+            "Implement individualized educational plans (IEPs), tailoring instruction to each student's unique strengths and challenges to provide a personalized learning environment"
+        ]
     }
 ]

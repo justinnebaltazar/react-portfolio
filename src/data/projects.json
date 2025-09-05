@@ -10,7 +10,7 @@
     {
       "title": "Find-Your-Matcha",
       "projectType": "Hackathon Project", 
-      "imageSrc": "projects/354-library-light.png",
+      "imageSrc": "projects/find-your-matcha.jpg",
       "description": "A hackathon project created for matcha lovers made by self-proclaimed matcha connoisseurs! This full-stack application features user reviews, finds the closest cafes near you, and [another function].", 
       "skills": ["React", "Tailwind CSS", "Supabase", "noSQL", "MapBox API"],
       "recent": true

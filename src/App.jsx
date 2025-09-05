@@ -18,8 +18,8 @@ function App() {
               <Navbar />
               <Hero />
               <Projects />
-              {/* Past Projects go here */}
-              <Experience />
+              <PastProjects/>
+              {/* <Experience /> */}
               <Skills />
               <Contact />
             </>

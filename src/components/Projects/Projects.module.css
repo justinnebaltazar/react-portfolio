@@ -10,16 +10,16 @@
 }
 
 .container {
-    background-color: var(--color-text);
+    background-color: var(--color-bg);
     padding: 76px 10%; 
     z-index: 1;
 }
 
 .title {
     position: relative;
-    font-size: 35px;
-    color: var(--color-light-text);
+    font-size: 45px;
     font-weight: 700;
+    color: var(--color-purple);
     letter-spacing: 1.75px;
     text-transform: uppercase;
     z-index: 1;

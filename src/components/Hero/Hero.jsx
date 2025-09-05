@@ -7,13 +7,13 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>
-                    Justinne Baltazar
+                    JUSTINNE BALTAZAR
                 </h1>
-                <p className={styles.description}>An aspiring software developer with an interest in web development and computer systems</p>
+                 <p className={styles.description}>An aspiring software developer with an interest in web development and computer systems</p>
                 <ul className={styles.links}>
-                    <li><a href="https://github.com/justinnebaltazar"><img src={getImageUrl("hero/github-white.png")} alt="github-icon" className={styles.github} /></a></li>
-                    <li><a href="https://www.linkedin.com/in/justinnebaltazar/"><img src={getImageUrl("hero/linkedin-white.png")} alt="github-icon" className={styles.linkedin} /></a></li>
-                    <li><a href="mailto:jfb3@sfu.ca"><img src={getImageUrl("hero/email-white.png")} className={styles.email}></img></a></li>
+                    <li><a href="https://github.com/justinnebaltazar"><img src={getImageUrl("hero/github-dark.png")} alt="github-icon" className={styles.github} /></a></li>
+                    <li><a href="https://www.linkedin.com/in/justinnebaltazar/"><img src={getImageUrl("hero/linkedin-dark.png")} alt="github-icon" className={styles.linkedin} /></a></li>
+                    <li><a href="mailto:jfb3@sfu.ca"><img src={getImageUrl("hero/email-dark.png")} className={styles.email}></img></a></li>
                 </ul>
             </div>
             <div className={styles.topBlur}></div>

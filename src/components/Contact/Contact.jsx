@@ -15,7 +15,7 @@ export const Contact = () => {
                     <a href="mailto:jfb3@sfu.ca">jfb3@sfu.ca</a>
                 </li>
                 <li className={styles.link}>
-                    <img class={styles.linkedin} src={getImageUrl("hero/linkedinIcon.png")} alt="linkedin-icon"/>
+                    <img className={styles.linkedin} src={getImageUrl("hero/linkedinIcon.png")} alt="linkedin-icon"/>
                     <a href="https://www.linkedin.com/in/justinnebaltazar/">linkedin.com/justinnebaltazar</a>
                 </li>
                 <li className={styles.link}>

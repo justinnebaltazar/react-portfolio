@@ -6,14 +6,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 61px 10% 0 10%;
-    background-color: var(--color-dark-bg);
+    background-color: var(--color-bg);
 }
 
 .title {
     font-size: 30px;
     font-weight: 600; 
     text-decoration: none;
-    color: var(--color-light-text);
+    color: var(--color-black);
 }
 
 .menu {
@@ -28,8 +28,9 @@
 
 .menuItems a {
     font-size: 25px;
-    color: var(--color-light-text);
+    color: var(--color-black);
     text-decoration: none;
+    font-weight: 600; 
 }
 
 .menuBtn {

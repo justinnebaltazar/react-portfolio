@@ -8,10 +8,10 @@ export const Navbar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <a className={styles.title} href="/">Justinne's Portfolio</a>
+            <a className={styles.title} href="/">Welcome!</a>
             <div className={styles.menu}>
                 <img className={styles.menuBtn} src={
-                    menuOpen ? "./assets/nav/white-closeBtn.png" : "./assets/nav/white-menuBtn.png"} 
+                    menuOpen ? "./assets/nav/blackCloseBtn.png" : "./assets/nav/blackMenuBtn.png"} 
                     alt="menu-button"
                     onClick={() => {
                         setMenuOpen(!menuOpen);
@@ -19,9 +19,6 @@ export const Navbar = () => {
                     </img>
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                     onClick={() => setMenuOpen(false)}>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
                     <li> 
                         <a href="#projects">Projects</a>
                     </li>

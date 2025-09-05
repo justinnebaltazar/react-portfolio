@@ -1,5 +1,21 @@
 [
     {
+      "title": "Library Database Management",
+      "projectType": "Full-Stack Application", 
+      "imageSrc": "projects/354-library-light.png",
+      "description": "A mini-project to showcase our ability to design, create, manage, and implement a SQL database to capture the real-world requirements of a functioning library. It is currently being updated from a Python Qt GUI to React.js and Tailwind CSS front-end", 
+      "skills": ["SQL", "Python", "Qt"],
+      "recent": true
+    },
+    {
+      "title": "Find-Your-Matcha",
+      "projectType": "Hackathon Project", 
+      "imageSrc": "projects/354-library-light.png",
+      "description": "A hackathon project created for matcha lovers made by self-proclaimed matcha connoisseurs! This full-stack application features user reviews, finds the closest cafes near you, and [another function].", 
+      "skills": ["React", "Tailwind CSS", "Supabase", "noSQL", "MapBox API"],
+      "recent": true
+    },
+    {
       "title": "Tetris Clone", 
       "projectType": "Website Development",
       "imageSrc": "projects/tetris-clone.png",
@@ -7,7 +23,8 @@
       "skills": ["React", "CSS", "JavaScript", "Vite"],
       "demo": null,
       "source": null,
-      "componentTitle": "tetris-clone"
+      "componentTitle": "tetris-clone", 
+      "recent": false
     },
     {
       "title": "This website!",
@@ -17,7 +34,8 @@
       "skills": ["React", "CSS", "JavaScript", "Vite", "Netlify"],
       "demo": null,
       "source": null, 
-      "componentTitle": "portfolio"
+      "componentTitle": "portfolio", 
+      "recent": false
     },
     {
       "title": "Undercooked",
@@ -27,7 +45,8 @@
       "skills": ["Java", "Maven", "JUnit", "Java Swing"],
       "demo": "https://www.loom.com/share/ebcc60e774f94c19bc8bbec8f4569c90",
       "source": null, 
-      "componentTitle": "undercooked"
+      "componentTitle": "undercooked", 
+      "recent": false
     },
     {
       "title": "RISC-V Emulator",
@@ -37,7 +56,8 @@
       "skills": ["C++", "C", "CGDB", "CUnit"],
       "demo": null,
       "source": null, 
-      "componentTitle": "riscv"
+      "componentTitle": "riscv", 
+      "recent": false
     },
     {
       "title": "Etch-A-Sketch",
@@ -47,6 +67,7 @@
       "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://github.com/justinnebaltazar/etch-a-sketch",
       "source": "https://github.com/justinnebaltazar/etch-a-sketch",
-      "componentTitle": "sketch"
+      "componentTitle": "sketch", 
+      "recent": false
     }
   ]

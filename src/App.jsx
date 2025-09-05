@@ -2,11 +2,11 @@ import styles from "./App.module.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
-import { About } from "./components/About/About";
 import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
+import { PastProjects } from "./components/Projects/PastProjects";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
             <>
               <Navbar />
               <Hero />
-              <About />
               <Projects />
+              {/* Past Projects go here */}
               <Experience />
               <Skills />
               <Contact />
